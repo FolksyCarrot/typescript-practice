@@ -1,6 +1,9 @@
-const add = (num1: number, num2: number) => {
-    return num1 + num2
+const person: {
+    name: string;
+    age: number;
+} = {
+    name: "jack",
+    age: 20
 }
 
-const result = add(3, 4)
-console.log(result)
+console.log(person)
